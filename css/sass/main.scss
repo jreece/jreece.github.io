@@ -55,26 +55,38 @@ html {
 }
 
 
-ul {
+.nav {
   margin: 0;
   padding: 0;
-  text-align: right;
+
   li {
-    margin-top: 1em;
+    margin: 1em 1.5em 0;
     list-style: none;
   }
+
   a {
-    display: inline-block;
-    padding: 0.5em 1em;
-    background-blend-mode: difference;
-    background-color: rgba(blue, 0.1);
-    color: rgba(white, 0.4);
-    font-size: 4vw;
+    display: block;
+    padding: 0.5em 0.75em;
+    background-color: rgba(white, 0.6);
+    border: 0.3rem solid transparent;
+    color: #132b71;
+    font-size: 6vw;
     text-decoration: none;
-    &:hover, &:focus {
-      background-color: rgba(blue, 0.3);
-      color: white;
-      transition: all 0.3s ease-in-out;
+    mix-blend-mode: overlay;
+    transition: all 0.1s ease-in-out;
+
+    small {
+      display: block;
+      font-size: 3vw;
     }
+
+    &:hover, &:focus {
+      padding-left: 1em;
+      background-color: transparent;
+      border-color: rgba(white, 0.6);
+      color: white;
+    }
+
   }
+
 }

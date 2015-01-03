@@ -38,24 +38,29 @@ html {
     .mask-overlay p {
       font-size: 4vw; } }
 
-ul {
+.nav {
   margin: 0;
-  padding: 0;
-  text-align: right; }
-  ul li {
-    margin-top: 1em;
+  padding: 0; }
+  .nav li {
+    margin: 1em 1.5em 0;
     list-style: none; }
-  ul a {
-    display: inline-block;
-    padding: 0.5em 1em;
-    background-blend-mode: difference;
-    background-color: rgba(0, 0, 255, 0.1);
-    color: rgba(255, 255, 255, 0.4);
-    font-size: 4vw;
-    text-decoration: none; }
-    ul a:hover, ul a:focus {
-      background-color: rgba(0, 0, 255, 0.3);
-      color: white;
-      transition: all 0.3s ease-in-out; }
+  .nav a {
+    display: block;
+    padding: 0.5em 0.75em;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 0.3rem solid transparent;
+    color: #132b71;
+    font-size: 6vw;
+    text-decoration: none;
+    mix-blend-mode: overlay;
+    transition: all 0.1s ease-in-out; }
+    .nav a small {
+      display: block;
+      font-size: 3vw; }
+    .nav a:hover, .nav a:focus {
+      padding-left: 1em;
+      background-color: transparent;
+      border-color: rgba(255, 255, 255, 0.6);
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
