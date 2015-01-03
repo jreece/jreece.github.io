@@ -5,11 +5,19 @@ Chrome requires experimental flag
 chrome://flags/#enable-experimental-web-platform-features 
 */
 
+$text-color: #132b71;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html {
   height: 100%;
   background-attachment: fixed;
+  background-blend-mode: exclusion;
+  background-color: $text-color;
   background-image: url("../img/NGC-6543.jpg");
-  background-position: 30%;
+  background-position: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Raleway, Arial Black, sans-serif;
@@ -18,7 +26,7 @@ html {
 
 .mask-overlay {
   background-color: rgba(white, 0.6);
-  color: #132b71;
+  color: $text-color;
   mix-blend-mode: overlay;
 
   * {
@@ -26,7 +34,6 @@ html {
   }
 
   h1 {
-    box-sizing: border-box;
     margin: 0;
     padding: 0.5em 0.8em;
     font-size: 12vw;
@@ -43,7 +50,7 @@ html {
     text-align: right;
   }
 
-  @media (min-width: 480px) {
+  @media (min-width: 30em) {
     h1 { 
       font-size: 8vw;
     }
@@ -52,16 +59,28 @@ html {
     }
   }
 
+  @media (min-width: 60em) {
+    h1 { 
+      font-size: 6vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+  }
+
 }
 
 
 .nav {
+  display: flex;
+  flex-flow: row wrap;
   margin: 0;
   padding: 0;
 
   li {
-    margin: 1em 1.5em 0;
+    margin: 1em 2em;
     list-style: none;
+    width: 100%;
   }
 
   a {
@@ -69,7 +88,7 @@ html {
     padding: 0.5em 0.75em;
     background-color: rgba(white, 0.6);
     border: 0.3rem solid transparent;
-    color: #132b71;
+    color: $text-color;
     font-size: 6vw;
     text-decoration: none;
     mix-blend-mode: overlay;
@@ -82,9 +101,24 @@ html {
 
     &:hover, &:focus {
       padding-left: 1em;
-      background-color: transparent;
+      background-color: rgba(white, 0.1);
       border-color: rgba(white, 0.6);
       color: white;
+    }
+
+  }
+
+  @media (min-width: 60em) {
+    
+    li {
+      width: 42%;
+    }
+    
+    a {
+      font-size: 4vw;
+      small {
+        font-size: 2vw;
+      }
     }
 
   }
