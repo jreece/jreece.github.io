@@ -1,0 +1,61 @@
+/*! 
+Latest Firefox and Safari support this. 
+Chrome requires experimental flag
+chrome://flags/#enable-experimental-web-platform-features 
+*/
+html {
+  height: 100%;
+  background-attachment: fixed;
+  background-image: url("../img/NGC-6543.jpg");
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Raleway, Arial Black, sans-serif; }
+
+.mask-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #132b71;
+  mix-blend-mode: overlay; }
+  .mask-overlay * {
+    color: inherit; }
+  .mask-overlay h1 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.5em 0.8em;
+    font-size: 12vw;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase; }
+  .mask-overlay p {
+    margin-top: -0.5em;
+    padding: 0 1em 1em;
+    font-size: 6vw;
+    font-weight: 700;
+    text-align: right; }
+  @media (min-width: 480px) {
+    .mask-overlay h1 {
+      font-size: 8vw; }
+    .mask-overlay p {
+      font-size: 4vw; } }
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: right; }
+  ul li {
+    margin-top: 1em;
+    list-style: none; }
+  ul a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-blend-mode: difference;
+    background-color: rgba(0, 0, 255, 0.1);
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 4vw;
+    text-decoration: none; }
+    ul a:hover, ul a:focus {
+      background-color: rgba(0, 0, 255, 0.3);
+      color: white;
+      transition: all 0.3s ease-in-out; }
+
+/*# sourceMappingURL=main.css.map */
