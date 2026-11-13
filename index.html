@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b1018" />
+  <meta name="description" content="Jon Reece — software engineering, QA automation, and product delivery. Explore experience, technical skills, and an interactive quality engineering lab." />
+  <title>Jon Reece — Software Engineering & Quality</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap nav-inner">
+    <a class="brand" href="#home" aria-label="Jon Reece home"><span class="brand-mark">JR<span class="brand-dot">.</span></span><span class="brand-caption">ENGINEERING / QUALITY</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#expertise">Expertise</a><a href="#lab">Test Lab</a><a href="#experience">Experience</a><a class="nav-contact" href="mailto:jon.reece@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main id="main">
+    <section class="hero wrap" id="home" aria-labelledby="hero-title"><div class="hero-copy">
+      <div class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING · QA AUTOMATION · PRODUCT DELIVERY</div>
+      <h1 id="hero-title">Building software<br>that <em>holds up.</em></h1>
+      <p class="hero-lead">I'm <strong>Jon Reece</strong> — a software professional with 20 years of experience building, testing, and delivering web applications. I work where engineering, product thinking, and software quality meet.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#lab">Explore the test lab <span aria-hidden="true">↗</span></a><a class="button button-secondary" href="#experience">View experience <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-meta"><span><span class="meta-icon" aria-hidden="true">⌖</span> Greenville, South Carolina</span><span><span class="meta-icon" aria-hidden="true">◉</span> Remote opportunities</span></div>
+    </div><div class="hero-art" aria-hidden="true"><div class="orb orb-outer"></div><div class="orb orb-middle"></div><div class="orb orb-inner"></div><div class="orb-core"></div><div class="art-label art-label-top">SYSTEM STATUS <b>● NOMINAL</b></div><div class="art-label art-label-bottom">DESIGN → BUILD → VERIFY → SHIP</div><div class="art-crosshair">+</div></div></section>
+    <div class="ticker" aria-label="Technical focus"><div class="wrap ticker-inner"><span>FRONT-END ENGINEERING</span><i></i><span>TEST AUTOMATION</span><i></i><span>CI / CD</span><i></i><span>RELEASE QUALITY</span><i></i><span>PROBLEM SOLVING</span></div></div>
+    <section class="section wrap about" id="about"><div class="section-head"><span class="section-index">01 / PERSPECTIVE</span><h2>More than a single<br><span class="muted">discipline.</span></h2></div><div class="about-body"><p>I've spent my career on both sides of the release: developing interfaces and features, then making sure those features behave as intended when real people use them.</p><p>My background spans front-end development, automated and manual testing, technical project management, and software release coordination. That range helps me see how a change affects not just one screen, but the broader application and the people relying on it.</p><div class="principles"><div><b>01</b><span>Understand the system</span></div><div><b>02</b><span>Build for maintainability</span></div><div><b>03</b><span>Verify the behavior</span></div></div></div></section>
+    <section class="section section-alt" id="expertise"><div class="wrap"><div class="section-topline"><span class="section-index">02 / CAPABILITIES</span><p>Technical breadth, grounded in hands-on delivery.</p></div><h2 class="section-title">What I bring <span class="muted">to the table.</span></h2><div class="skill-grid">
+      <article class="skill-card"><div class="skill-icon">{ }</div><h3>Software development</h3><p>Building and maintaining interfaces, troubleshooting behavior, and working across established web platforms.</p><div class="tags"><span>JavaScript / TypeScript</span><span>HTML / CSS</span><span>Python</span><span>SQL Server</span><span>jQuery</span></div></article>
+      <article class="skill-card"><div class="skill-icon">✓</div><h3>Quality engineering</h3><p>Designing test coverage, automating repeatable checks, and investigating failures before they reach users.</p><div class="tags"><span>Playwright</span><span>Cypress</span><span>E2E / UI</span><span>Regression</span><span>Page Objects</span></div></article>
+      <article class="skill-card"><div class="skill-icon">↗</div><h3>Delivery & operations</h3><p>Connecting testing to the release process, tracking issues, and coordinating work across development teams.</p><div class="tags"><span>Bitbucket Pipelines</span><span>Jira</span><span>Git</span><span>Agile</span><span>Release management</span></div></article>
+      <article class="skill-card"><div class="skill-icon">⌁</div><h3>Diagnostics & validation</h3><p>Checking APIs, validating application data, and using performance and security tools to identify risks.</p><div class="tags"><span>Postman</span><span>Lighthouse</span><span>OWASP ZAP</span><span>SQL joins / filters</span></div></article>
+    </div><p class="skill-footnote">Additional exposure to Vue, Angular, and .NET Blazor.</p></div></section>
+    <section class="section wrap lab-section" id="lab"><div class="section-topline"><span class="section-index">03 / INTERACTIVE DEMONSTRATION</span><span class="lab-live"><span class="status-dot"></span> LIVE IN YOUR BROWSER</span></div><div class="lab-intro"><div><h2>Quality isn't a<br><span class="muted">checkbox.</span></h2><p>This interactive test lab demonstrates how I structure test cases, define expected outcomes, and report results. Try running the sample checks or create a test case of your own.</p></div><div class="lab-intro-note">A small, transparent demonstration of test design and execution — not a claim about a production system.</div></div>
+      <div class="lab-shell"><div class="lab-header"><div><div class="lab-kicker">QUALITY ENGINEERING / DEMO 001</div><h3>Test execution console</h3></div><div class="console-state"><span class="status-dot"></span> READY TO EXECUTE</div></div>
+      <div class="lab-toolbar"><div class="filter-group" role="group" aria-label="Filter test cases"><button class="filter active" data-filter="all" aria-pressed="true">All <span id="all-count">5</span></button><button class="filter" data-filter="positive" aria-pressed="false">Positive</button><button class="filter" data-filter="negative" aria-pressed="false">Negative</button><button class="filter" data-filter="boundary" aria-pressed="false">Boundary</button></div><button class="button button-run" id="run-tests" type="button">▶ Run checks</button></div>
+      <div class="test-table-wrap"><table class="test-table"><thead><tr><th scope="col">ID</th><th scope="col">TEST SCENARIO</th><th scope="col">TYPE</th><th scope="col">RESULT</th></tr></thead><tbody id="test-body"></tbody></table></div>
+      <div class="lab-footer"><div class="test-summary" aria-live="polite" id="test-summary">5 cases ready · No checks executed</div><button id="reset-tests" type="button" class="text-button">Reset results ↺</button></div></div>
+      <div class="lab-details"><div class="lab-explain"><span class="mini-heading">UNDER THE HOOD</span><h3>Real assertions, not random pass/fail lights.</h3><p>Each sample case checks a deterministic JavaScript function against an expected result. You can inspect the code, change the input, and rerun the suite. The console reports genuine outcomes for this local demonstration.</p><a class="inline-link" href="https://github.com/new" target="_blank" rel="noopener noreferrer">Publish the source on GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="case-builder"><span class="mini-heading">TRY AN EDGE CASE</span><h3>Validate a discount rule</h3><p>Sample business rule: a discount percentage must be a number from 0 to 100, inclusive.</p><form id="discount-form"><label for="discount-input">Discount percentage</label><div class="form-row"><input id="discount-input" name="discount" type="text" inputmode="decimal" placeholder="e.g. 100" autocomplete="off" required/><button class="button button-primary" type="submit">Validate</button></div></form><div class="validation-result" id="validation-result" role="status" aria-live="polite">Enter a value to test the boundary.</div></div></div>
+    </section>
+    <section class="section section-alt" id="experience" aria-labelledby="experience-title">
+      <div class="wrap">
+        <div class="section-topline"><span class="section-index">04 / EXPERIENCE</span><span class="small-muted">MAY 2005 — AUG 2025</span></div>
+        <h2 class="section-title" id="experience-title">Built through <span class="muted">experience.</span></h2>
+        <div class="timeline"><div class="timeline-rail"><span class="timeline-node"></span></div><div class="timeline-content">
+          <div class="timeline-heading"><div><h3>Website Pipeline / CIMcloud</h3><p>Software engineering · Quality assurance · Product delivery</p></div><span>Greenville, SC · Remote since 2020</span></div>
+          <p>Twenty years contributing to the development, testing, and delivery of a complex e-commerce platform. My responsibilities evolved across front-end engineering, technical project coordination, software releases, and quality assurance — giving me a practical understanding of the entire software delivery lifecycle.</p>
+          <div class="experience-highlights" aria-label="Career highlights">
+            <div><strong>20 years</strong><span>One evolving software platform</span></div>
+            <div><strong>End to end</strong><span>Development through release</span></div>
+            <div><strong>Hands-on</strong><span>Automation, pipelines & diagnostics</span></div>
+          </div>
+          <div class="experience-roles">
+            <article class="experience-role"><div class="experience-role-heading"><span class="experience-role-number">01</span><div><h4>QA Engineer</h4><p>Test automation · Regression · Application quality</p></div></div>
+              <ul><li>Established the company's first dedicated QA engineering function, building test practices and coverage from the ground up.</li><li>Authored end-to-end and UI automation using Playwright and Cypress, including Playwright page objects and reusable Cypress custom commands.</li><li>Developed manual and automated regression scenarios for a complex application with customer-specific customizations.</li><li>Created Bitbucket Pipelines YAML to run automated checks in CI and used Cypress Cloud to support test execution and visibility.</li><li>Investigated application behavior with Postman, Microsoft SQL Server queries, Lighthouse/LighthouseCI, and OWASP ZAP to surface functional, data, performance, and security issues.</li></ul>
+              <div class="tags"><span>Playwright</span><span>Cypress</span><span>JavaScript / TypeScript</span><span>Bitbucket Pipelines</span><span>Postman</span><span>SQL Server</span></div>
+            </article>
+            <article class="experience-role"><div class="experience-role-heading"><span class="experience-role-number">02</span><div><h4>Product Release Manager</h4><p>Release coordination · Jira · Delivery quality</p></div></div>
+              <ul><li>Coordinated weekly software release activities, connecting engineering work, testing readiness, and deployment schedules.</li><li>Managed Jira board workflows and helped keep release-related issues, priorities, and progress visible to the team.</li><li>Worked across development and QA responsibilities to identify risks and support reliable releases.</li></ul>
+              <div class="tags"><span>Jira</span><span>Release management</span><span>Agile</span><span>Cross-functional coordination</span></div>
+            </article>
+            <article class="experience-role"><div class="experience-role-heading"><span class="experience-role-number">03</span><div><h4>Technical Project Manager</h4><p>Technical coordination · Requirements · Collaboration</p></div></div>
+              <ul><li>Helped translate business and customer requirements into actionable technical work.</li><li>Coordinated with developers and stakeholders while navigating platform constraints, customizations, and delivery priorities.</li><li>Brought hands-on engineering knowledge to planning, troubleshooting, and project communication.</li></ul>
+              <div class="tags"><span>Technical planning</span><span>Stakeholder communication</span><span>Issue tracking</span></div>
+            </article>
+            <article class="experience-role"><div class="experience-role-heading"><span class="experience-role-number">04</span><div><h4>Front-End Development & UI Engineering</h4><p>Web interfaces · Maintenance · Troubleshooting</p></div></div>
+              <ul><li>Built and maintained web interfaces using JavaScript, HTML, CSS, and extensive jQuery experience.</li><li>Worked within an established e-commerce codebase, including customer-specific behavior and evolving application requirements.</li><li>Applied UI development experience to diagnosing defects and designing more effective automated tests.</li></ul>
+              <div class="tags"><span>JavaScript</span><span>jQuery</span><span>HTML</span><span>CSS</span><span>UI engineering</span></div>
+            </article>
+          </div>
+          <p class="experience-note">Roles represent responsibilities held during a single 2005–2025 tenure; individual role dates are intentionally omitted pending confirmation.</p>
+        </div></div>
+      </div>
+    </section>
+    <section class="section wrap contact" id="contact"><span class="section-index">05 / LET'S CONNECT</span><h2>Good software takes<br><em>good judgment.</em></h2><p>I'm interested in remote opportunities where thoughtful engineering, reliable software, and practical problem-solving matter.</p><a class="button button-primary contact-button" href="mailto:jon.reece@gmail.com?subject=Let's%20connect">Start a conversation <span aria-hidden="true">↗</span></a><a class="email-link" href="mailto:jon.reece@gmail.com">jon.reece@gmail.com</a></section>
+  </main><footer class="footer"><div class="wrap footer-inner"><span>© <span id="year">2026</span> Jon Reece</span><span>Designed & built with intention.</span><a href="#home">Back to top ↑</a></div></footer>
+</body></html>
