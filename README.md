@@ -1,4 +1,4 @@
-# Jon Reece — Engineering Portfolio
+# Jon Reece — Software Engineer
 
-A responsive, dependency-free portfolio website showcasing software engineering, quality engineering, and delivery experience. Includes a working browser-based test execution console with deterministic JavaScript assertions and a boundary-value validation exercise.
+A responsive, dependency-free portfolio website showcasing software engineering, quality engineering, and delivery experience.
 
